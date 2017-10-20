@@ -6,8 +6,8 @@ android {
 
     defaultConfig {
         applicationId "de.hechler.andfish"
-        minSdkVersion 4
-        targetSdkVersion 4
+        minSdkVersion 8
+        targetSdkVersion 8
     }
 
     buildTypes {
@@ -16,4 +16,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+}
+dependencies {
+    compile project(':zipzapsdk')
 }
